@@ -1,3 +1,21 @@
 h1 {
    color:red; 
+   margin-bottom: 50px;
+   padding-bottom: 100px;
+   border-bottom: 10px dashed orangered;
+}
+
+p {
+    margin: 10px 10px 10px 20px;
+    border: 10px dashed blue;
+}
+
+li {
+    color:red;
+}
+
+#example {
+    margin: 50px;
+    border: 20px dashed darkred;
+    background: hotpink;
 }
