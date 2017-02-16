@@ -33,7 +33,7 @@ li {
 #example {
     margin: 50px;
     border: 20px dashed darkred;
-    background: hotpink;
+    background-color: hotpink;
 }
 
 .navButton {
@@ -55,10 +55,67 @@ li {
    font-size:1.5em;
 }
 
-img.portrait{
-    margin-left: 30px;
-    width:90%;
-    float:right;
-    background-color: 
- /*   border: 20px dashed darkred;*/
+.col-xs-12{
+    background-color: lightskyblue;
+    height:100;
+    color:black;
+    border:2px solid black;
 }
+
+.col-xs-1{
+    background-color: yellow;
+    height:100;
+    border: 2px solid black;
+}
+
+.col-sm-3{
+    background-color:green;
+    height:200;
+    border:2px solid black;
+}
+
+.col-md-1{
+    background-color:cornflowerblue;
+    height:200;
+    border:2px solid black;
+}
+
+.col-lg-1{
+    background-color:cornflowerblue;
+    height:200;
+    border:2px solid black;
+}
+
+.col-md-4{
+    background-color:yellowgreen;
+    height:200;
+    border:2px solid gray;
+}
+
+/*why active state setting doesn't work*/
+.nav-item:active{   
+   color: yellow;
+}
+
+.nav-item{
+    color:black;
+}
+
+/*why margin-top or padding-top doesn't work?*/
+.nav-link{   
+   padding-top:20px;
+   margin-top:30px;
+   margin-left:20px;
+   color: white;
+ /*  float:right;*/
+}
+
+.navbar-nav{
+    float:right;
+}
+
+#navHeader{
+    background-color:darkslategrey;
+    height:50px;
+}
+
