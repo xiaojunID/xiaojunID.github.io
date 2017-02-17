@@ -2,8 +2,10 @@
 body {
   /*font-family: 'Roboto', sans-serif;*/
   /*font-family: 'Oswald', sans-serif;*/
-  font-family: 'PT Serif', serif;
+  /*font-family: 'PT Serif', serif;*/
+  font-family: "Avenir",Avenir,Arial,sans-serif;
   font-size: 16px;
+  
 
   background-color: #f4f7f8;
 }
@@ -133,7 +135,7 @@ li {
     float:right;
 }
 
-#navHeader{
+.navHeader{
     background-color:darkslategrey;
     height:50px;
 }
@@ -156,5 +158,15 @@ li {
 
 /*how to redefine the style of active item in list*/
 li.active{
-    background-color:red;
+    background-color:pink;
 }
+
+/*change color does not work*/
+.navbar-default{
+    background-color:#f8f8f8;
+}
+
+.navbar{
+    background-color:#f8f8f8;
+}
+
