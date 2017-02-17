@@ -14,7 +14,7 @@ h1 {
    margin-bottom: 10px;*/
    margin:30px 50px 50px 30px;
    padding-bottom: 10px;
-   border: 10px dashed orangered;
+  /* border: 10px dashed orangered;*/
   /*border-bottom: 10px;*/
 }
 
@@ -45,32 +45,51 @@ li {
    /* float:left;*/
 }
 
-#navBar {
-   /* float:right;*/
+/*#navBar {
    position:absolute;
    Top:50px;
    Right:100px;
    background: red;
    font-family: 'Oswald', sans-serif;
    font-size:1.5em;
-}
+}*/
 
 .col-xs-12{
     background-color: lightskyblue;
-    height:100;
     color:black;
     border:2px solid black;
 }
 
+.col-sm-12{
+    background-color: lightskyblue;
+    color:black;
+    border:2px solid black;
+}
+
+
 .col-xs-1{
     background-color: yellow;
-    height:100;
     border: 2px solid black;
 }
 
+
+.col-xs-3{
+    background-color: royalblue;
+    border: 2px solid black;
+}
+
+.col-sm-1{
+    background-color: yellow;
+    border: 2px solid black;
+}
 .col-sm-3{
     background-color:green;
     height:200;
+    border:2px solid black;
+}
+
+.col-sm-6{
+    background-color:green;
     border:2px solid black;
 }
 
@@ -80,8 +99,8 @@ li {
     border:2px solid black;
 }
 
-.col-lg-1{
-    background-color:cornflowerblue;
+.col-lg-12{
+    background-color:rebeccapurple;
     height:200;
     border:2px solid black;
 }
@@ -119,3 +138,23 @@ li {
     height:50px;
 }
 
+#space1{
+    height:500px;
+}
+
+.pjThumbnail{
+    height:300px;
+}
+
+.bigPicture{
+    height:300px;
+}
+
+.spaceDivider{
+    height:100px;
+}
+
+/*how to redefine the style of active item in list*/
+li.active{
+    background-color:red;
+}
