@@ -4,120 +4,144 @@
     <title>home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+   
     <link href="https://fonts.googleapis.com/css?family=Roboto|PT+Serif|Oswald" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-            crossorigin="anonymous">
-
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-                crossorigin="anonymous"></script>
-
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <!--<style type="text/css">
+     body {background-color:#f2f2f2;
+           font-family: 'Oswald', sans-serif;}
+    </style>-->
 </head>
 
 <body>
-    <div  class="navHeader container-fluid">
-        <nav class="navbar navbar-default">
-            <a class="navbar-brand" href="#"></a>
-            <ul class="navbar-nav list-inline">
+<div class = "navbar navbar-default nvbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+              data-target = ".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+      </button>
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="work.html">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="contact.html">Contact</a>
-                </li>
+      <a class="navbar-brand" href="#">Daisy(Xiaojun Du)</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html"index>home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="#contact" data-toggle="modal">contact</a></li>
+          <li class="dropdown">
+            <a href="work.html" class="dropdown-toggle" data-toggle="dropdown">work
+              <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Design Strategy</li>
+                <li><a href="#">Power On Demand</a></li>
+                <li class="divider"></li>
+              <li class="dropdown-header">UX Design</li>
+                <li><a href="#">DogFavor</a>
+                <li class="divider"></li>
+              <li class="dropdown-header">Service Design</li>
+                <li><a href="#">You.future</a></li>
+              </li>
             </ul>
-        </nav>
+        </ul>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="container-fluid">
-        <!--if something is defined in navbar-default in navbar.less, there is no way to overlay-->
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <!--nav header-->
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Xiaojun Du</a>
-                </div>
-                <!--nav bar-->
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Hello</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="about.html">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">pj1</a></li>
-                                <li><a href="#">pj2</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
+<div class="container-fluid">
+  <div class="jumbotron">
+      <h1>Hello, I am Daisy<h1>
+      <p>I am studying human-centered design in IIT Institute of design</p>
+      <a href="#" class="btn">More about me</a>
+      <a href="#" class="btn btn-primary">hello</a>
+  </div>
 
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>HelloPj1</h3>
+      <a href="#" class="thumbnail">
+        <img src="img/airbnb.png" alt="airbnb">
+      </a>
+  
+      <p>hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3
+        hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3 </p>
+      <a href="#" class="btn btn-danger">work1</a>
     </div>
-    <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>who i am, and what i am looking for</p>
-        <p>
-            <a class="btn" href="contact.html" role="button">more about me</a>
-        </p>
+    <div class="col-sm-4">
+      <h3>PandaBear2</h3>
+      <a href="#" class="thumbnail">
+        <img src="img/ceerias.jpg" alt="ceerias">
+      </a>
+      <p>hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3
+        hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3 </p>
+      <a href="#" class="btn btn-link">work2</a>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <!--how to put navigation in this area?-->
-            <!-- question equals to how to use grid to design layout!
-            <div class="col-xs-12">
-            </div>-->
-        </div>
-        <div class="row">
-            <!--why if it is col-xs-12, it will disappear when it goes to xs; Isn't the rule is:If
-            set as xs, sm,md,lg will follow the same, that means xs has higher rule than others-->
-            <div class="col-sm-6 bigPicture">
-                bigpicture area
-            </div>
-
-            <div class="col-xs-3 spaceDivider">
-                white space between picture and project thumbnail
-            </div>
-        </div class="row">
-        <div class="col-sm-1 pjThumbnail">gutter1
-        </div>
-        <div class="col-xs-3 pjthumbnail">image1
-        </div>
-        <div class="col-xs-1 pjthumbnail">gutter2
-        </div>
-        <div class="col-sm-3 pjthumbnail">image2
-        </div>
-        <div class="col-xs-1 pjthumbnail">gutter3
-        </div>
-        <div class="col-sm-3 pjthumbnail">image3
-        </div>
-
+     <div class="col-sm-4">
+    <h3>Polarbear</h3>
+      <a href="#" class="thumbnail">
+        <img src="img/dog.png" alt="dog">
+      </a>
+      <p>hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3
+        hello1 hell2 hello3hello1 hell2 hello3hello1 hell2 hello3 </p>
+      <a href="#" class="btn btn-danger">work3</a>
     </div>
+    
+  </div>
 
+
+
+
+</div>
+
+
+
+<!--foot-->
+<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+  <div class="container">
+    <div class="navbar-text pull-left">
+    <p>© 2016 Daisy(xiaojun) Du</p>
     </div>
+    <div class="navbar-text pull-right">
+     
+      <a href="#"> hello1<i class="fa fa-facebook-square"></i></a>
+    </div>
+  </div>
+</div>
 
 
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>contact me!</h4>
+          </div>
+          <div class="modal-body">
+            <p> send me email xiaojun@id.iit.edu</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-primary" data-dismiss="modal">close</a>
+          </div>
+        </div>
+
+        </div>
+    </div>
+    <!--=================================================-->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
