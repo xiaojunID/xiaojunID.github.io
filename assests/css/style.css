@@ -80,6 +80,13 @@ body {
     box-shadow:none;
 }
 
+.dropdown-menu>li>a{
+}
+
+.dropdown-menu>li>a:hover{
+    color:white;
+    background-color:red;
+}
 #selfintr{
     position:relative;
     margin-left:50%;
@@ -112,8 +119,14 @@ body {
     line-height:1.5;
 }
 
+p{
+    line-height:1.5;
+}
+
 h4{
-    font-weight: lighter;
+    font-weight:lighter;
+    color:#4A4A4A;
+    line-height: 1.6;
 }
 
 h3{
@@ -126,6 +139,9 @@ h6{
     font-weight:lighter;
 }
 
+h4.white{
+    color:#ffffff;
+}
 
 .jumbotron p{
     line-height: 1.5;
@@ -163,4 +179,23 @@ h6{
     background-image: none;
     background-color: #f4eeee;
     height:30px;
+}
+
+/*page: about*/
+#box{
+    width:100%;
+    height:400px;
+    background-color:#37bca6;
+}
+
+.aboutportrait{
+    margin-top:180px;
+    margin-left:10%;
+    max-width:400px;
+}
+
+.selfintro{
+    margin-top:290px;
+    margin-left:5%;
+    max-width:400px;
 }
