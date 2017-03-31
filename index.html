@@ -24,12 +24,44 @@
 </head>
 
 <body>
-<b>testhead</b>
-<div id="myheader"></div>
-<script>
-$("#myheader").load("http://xiaojundesign.com/header.html"); 
-</script>
-<b>testbottom</b>
+<div class = "navbar navbar-default nvbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+              data-tasrget = ".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="#">
+        <img class="idlogo" src="img/logo.png"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html"index>home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="#contact" data-toggle="modal">contact</a></li>
+          <li class="dropdown">
+            <a href="work.html" class="dropdown-toggle" data-toggle="dropdown">work
+              <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-header">Design Strategy</li>
+                <li><a href="#">Power On Demand</a></li>
+                <li class="divider"></li>
+              <li class="dropdown-header">UX Design</li>
+                <li><a href="#">DogFavor</a>
+                <li class="divider"></li>
+              <li class="dropdown-header">Service Design</li>
+                <li><a href="#">You.future</a></li>
+              </li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="container-fluid">
   <div class="jumbotron">
@@ -37,9 +69,6 @@ $("#myheader").load("http://xiaojundesign.com/header.html");
         <p><h2>UX Designer & Strategist </h2></p>
         <p><h4>My chinese name is xiaojun. I am a 2017 graduate candidate of the IIT Institute of Design with concentration on defining new features, products and services through design thinking methods.<h4></p>
       </div>
-        <!--<h1>UX Designer</h1>
-        <h1></h1>
-        <p>I am studying human-centered design in IIT Institute of design</p>-->
     </div>
   </div>
 
